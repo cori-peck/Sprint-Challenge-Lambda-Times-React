@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Tabs from './Tabs';
+
 const Tab = props => {
   if (props.tab)
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop, 
